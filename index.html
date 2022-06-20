@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header class="head">HOLETES</header>
+		<div class="room">
+			<label for="room">
+				<span style="color: red">*</span>
+				Elige la clase de habitación:
+			</label>
+			<select name="room-class" id="room-class">
+				<option selected disabled value="">Choose here</option>
+				<option value="standard">Standard</option>
+				<option value="juniorSuite">Junior Suite</option>
+				<option value="suite">Suite</option>
+			</select>
+		</div>
+
+		<div class="room-size">
+			<label for="room-size">
+				<span style="color: red">*</span>
+				Elige el tipo de habitación:
+			</label>
+			<select name="room-size" id="room-size">
+				<option selected disabled value="">Choose here</option>
+				<option value="individual">Individual</option>
+				<option value="doble">Doble</option>
+				<option value="triple">Triple</option>
+			</select>
+		</div>
+
+		<div class="nights">
+			<label for="night-number">
+				<span style="color: red">*</span>
+				Número de noches:
+			</label>
+			<input type="number" id="night-number" />
+		</div>
+
+		<div class="spa">
+			<label for="spa">¿Quiere incluido el servicio de Spa?</label>
+			<input type="checkbox" id="spa-option" />
+		</div>
+
+		<div class="parking">
+			<label for="parking">
+				¿Cuántas noches de parking quiere incluir?
+			</label>
+			<input type="number" id="parking-option" />
+		</div>
+
+		<div class="calcular">
+			<button id="calcular">Calcular</button>
+		</div>
+
+		<div class="info">
+			<h3 id="info"></h3>
+		</div>
+
+		<!-- Selecciones -->
+
+		<div>
+			<h3 id="resultado"></h3>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>

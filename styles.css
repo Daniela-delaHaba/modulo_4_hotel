@@ -1,0 +1,33 @@
+/* CLASSES */
+
+.rooms {
+	margin-top: 20px;
+}
+
+.spa {
+	margin-top: 20px;
+}
+
+body {
+	height: 100%;
+}
+
+.room-size {
+	margin-top: 20px;
+}
+
+.nights {
+	margin-top: 20px;
+}
+
+.parking {
+	margin-top: 20px;
+}
+
+.calcular {
+	margin-top: 20px;
+}
+
+.error {
+	color: red;
+}
